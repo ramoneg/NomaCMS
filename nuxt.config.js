@@ -22,7 +22,7 @@ export default {
     env: {
         CTF_SPACE_ID: config.CTF_SPACE_ID,
         CTF_CDA_ACCESS_TOKEN: config.CTF_CDA_ACCESS_TOKEN,
-        CTF_ENVIRONMENT: config.CTF_ENVIRONMENT
+        CTF_PAGES_TYPE_ID: config.CTF_PAGES_TYPE_ID
     },
     buildModules: ["@nuxtjs/tailwindcss"],
     build: {
@@ -35,6 +35,6 @@ export default {
         },
     },
     axios: {
-        baseURL: `https://cdn.contentful.com/spaces/${config.CTF_SPACE_ID}/environments/${config.CTF_ENVIRONMENT}/`,
+        // baseURL: `https://cdn.contentful.com/spaces/${config.CTF_SPACE_ID}/environments/${config.CTF_ENVIRONMENT}/`,
     },
 };
