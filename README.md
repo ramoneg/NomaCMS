@@ -1,2 +1,2 @@
-# flatCMS
+# Noma CMS
 a open source cms based on contentful
