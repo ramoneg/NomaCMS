@@ -1,5 +1,6 @@
 {
   "CTF_SPACE_ID": "",
   "CTF_CDA_ACCESS_TOKEN": "",
-  "CTF_PAGE_ID": ""
+  "CTF_PAGE_ID": "",
+  "CTF_ENVIRONMENT": "master"
 }
