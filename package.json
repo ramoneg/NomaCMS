@@ -4,12 +4,12 @@
     "dev": "nuxt"
   },
   "dependencies": {
-    "@fortawesome/free-brands-svg-icons": "^5.15.1",
-    "@fortawesome/free-solid-svg-icons": "^5.15.1",
-    "@nuxtjs/axios": "^5.12.2",
-    "@nuxtjs/tailwindcss": "^3.1.0",
-    "contentful": "^7.14.7",
-    "nuxt": "^2.14.6",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@nuxtjs/axios": "^5.12.5",
+    "@nuxtjs/tailwindcss": "^3.4.2",
+    "contentful": "^8.1.7",
+    "nuxt": "^2.14.12",
     "nuxt-fontawesome": "^0.4.0"
   }
 }
