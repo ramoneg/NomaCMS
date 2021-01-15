@@ -35,6 +35,6 @@ export default {
         },
     },
     axios: {
-        // baseURL: `https://cdn.contentful.com/spaces/${config.CTF_SPACE_ID}/environments/${config.CTF_ENVIRONMENT}/`,
+        //
     },
 };
