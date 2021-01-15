@@ -20,8 +20,8 @@ export const actions = {
                 locale: config.route.params.lang
             }),
         ])
-            .then(pages => {
-                commit("setPages", pages[0].items[0]);
+            .then(data => {
+                commit("setPages", data[0]['items']);
             })
             .catch(console.error);
     },
