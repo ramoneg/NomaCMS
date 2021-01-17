@@ -1,14 +1,13 @@
 <template>
-  <div>
-
-  </div>
+  <div></div>
 </template>
 
 <script>
+import { mapMutations } from 'vuex'
 export default {
-    // async mounted () {
-    //     let home = this.$config.defaultHome
-    //     await this.$router.replace(`/${localStorage.getItem('nomaCMS-language')}/${home}`)
-    // }
+    async asyncData ({env, redirect, route}) {
+        let home = env.DEFAULT_HOME
+        await redirect(`/${route.params.lang}/${home}`)
+    },
 }
 </script>

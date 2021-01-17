@@ -22,7 +22,9 @@ export default {
     env: {
         CTF_SPACE_ID: config.CTF_SPACE_ID,
         CTF_CDA_ACCESS_TOKEN: config.CTF_CDA_ACCESS_TOKEN,
-        CTF_PAGE_ID: config.CTF_PAGE_ID
+        CTF_PAGE_ID: config.CTF_PAGE_ID,
+        DEFAULT_HOME: "home",
+        DEFAULT_LANGUAGE: "de",
     },
     buildModules: ["@nuxtjs/tailwindcss"],
     build: {
@@ -32,7 +34,7 @@ export default {
                 autoprefixer: {},
                 tailwindcss: {},
             },
-        },
+        }
     },
     axios: {
         //
