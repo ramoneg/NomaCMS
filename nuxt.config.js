@@ -29,4 +29,7 @@ export default {
     axios: {
         //
     },
+    css: [
+        '@/assets/scss/app.scss',
+    ],
 };

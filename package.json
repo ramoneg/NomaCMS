@@ -7,8 +7,12 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.2",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@nuxtjs/axios": "^5.12.5",
+    "bootstrap": "^4.5.3",
     "contentful": "^8.1.7",
+    "fibers": "^5.0.0",
     "nuxt": "^2.14.12",
-    "nuxt-fontawesome": "^0.4.0"
+    "nuxt-fontawesome": "^0.4.0",
+    "sass": "^1.32.4",
+    "sass-loader": "^10.1.1"
   }
 }
