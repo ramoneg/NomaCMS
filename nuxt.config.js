@@ -1,6 +1,13 @@
 const config = require("./.contentful.json");
 
 export default {
+    buildModules: [
+        ['@nuxtjs/google-fonts', { 
+            families: {
+                Lato: [300, 400, 700]
+            }
+         }]
+    ],
     modules: [
         "@nuxtjs/axios",
         [
@@ -32,4 +39,7 @@ export default {
     css: [
         '@/assets/scss/app.scss',
     ],
+    googleFonts: {
+        
+    }
 };
