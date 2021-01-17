@@ -26,16 +26,6 @@ export default {
         DEFAULT_HOME: "home",
         DEFAULT_LANGUAGE: "de",
     },
-    buildModules: ["@nuxtjs/tailwindcss"],
-    build: {
-        postcss: {
-            plugins: {
-                "postcss-import": {},
-                autoprefixer: {},
-                tailwindcss: {},
-            },
-        }
-    },
     axios: {
         //
     },
