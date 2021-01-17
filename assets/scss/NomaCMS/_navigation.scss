@@ -1,4 +1,23 @@
 nav {
-    background-color: $gray-100;
+    background-color: $primary;
     padding: 1rem;
+    color: $gray-300;
+
+    .brand {
+        font-size: $font-size-lg;
+        color: $white;
+    }
+
+
+    a {
+        color: $secondary;
+    }
+
+    a:hover {
+        color: $third;
+    }
+
+    svg path {
+        fill: $secondary;
+    }
 }
