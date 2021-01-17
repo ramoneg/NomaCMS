@@ -1,15 +1,21 @@
 <template>
     <div>
+        <page-navigation />
         <div v-if="!page">Page not found!</div>
         <page-renderer :page="page" v-else />
+        <page-footer />
     </div>
 </template>
 
 <script>
-import PageRenderer from '~/components/NomaCMS/PageRenderer.vue'
+import PageRenderer from '~/components/NomaCMS/PageRenderer'
+import PageNavigation from '~/components/NomaCMS/Elements/Navigation'
+import PageFooter from '~/components/NomaCMS/Elements/Footer'
 export default {
     components: {
         PageRenderer,
+        PageNavigation,
+        PageFooter
     },
     head() {
         return {
