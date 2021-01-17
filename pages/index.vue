@@ -3,12 +3,11 @@
 </template>
 
 <script>
-import {mapMutations} from 'vuex'
+import { mapMutations } from 'vuex'
 export default {
-    // async mounted () {
-    //     let home = this.$config.defaultHome
-    //     let language = localStorage.getItem('nomaCMS-language') || this.$config.defaultLanguage
-    //     await this.$router.replace(`/${language}/${home}`)
-    // },
+    async asyncData ({env, redirect}) {
+        let language = env.DEFAULT_LANGUAGE
+        await redirect(`/${language}`)
+    },
 }
 </script>
